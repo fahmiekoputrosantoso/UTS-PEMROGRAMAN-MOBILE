@@ -44,20 +44,6 @@ class _myRegisterState extends State<myRegister> {
           backgroundColor: Colors.transparent,
           body: Stack(
             children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Text(
-                    'REGISTER',
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      color: Color.fromARGB(255, 111, 141, 240),
-                      fontSize: 50.0,
-                    ),
-                  ),
-                ],
-              ),
               SingleChildScrollView(
                 child: Container(
                   padding: EdgeInsets.only(

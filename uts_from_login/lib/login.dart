@@ -32,25 +32,6 @@ class _MyLoginState extends State<MyLogin> {
           backgroundColor: Color.fromARGB(0, 0, 0, 0),
           body: Stack(
             children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Container(
-                    padding: EdgeInsets.only(
-                      top: 60.0,
-                    ),
-                    child: Text(
-                      '\n SILAHKAN LOGIN',
-                      textAlign: TextAlign.left,
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: Color.fromARGB(255, 111, 141, 240),
-                        fontSize: 50.0,
-                      ),
-                    ),
-                  ),
-                ],
-              ),
               SingleChildScrollView(
                 child: Container(
                   padding: EdgeInsets.only(
@@ -129,12 +110,12 @@ class _MyLoginState extends State<MyLogin> {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          TextButton(
+                          TextButton( 
                             onPressed: () {
                               Navigator.pushNamed(context, 'register');
                             },
                             child: Text(
-                              'Register',
+                              'Create Account',
                               style: TextStyle(
                                   color: Colors.black,
                                   fontSize: 14,

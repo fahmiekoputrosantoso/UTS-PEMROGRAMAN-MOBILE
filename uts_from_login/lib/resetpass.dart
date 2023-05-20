@@ -15,7 +15,7 @@ class _resetPasswordState extends State<resetPassword> {
         decoration: BoxDecoration(
           image: DecorationImage(
             image: AssetImage(
-              'assets/login.png',
+              'assets/reset.png',
             ),
             fit: BoxFit.cover,
           ),
@@ -113,7 +113,7 @@ class _resetPasswordState extends State<resetPassword> {
                               Navigator.pushNamed(context, 'register');
                             },
                             child: Text(
-                              'Register',
+                              'Create Account',
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 color: Colors.black
